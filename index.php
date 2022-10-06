@@ -14,7 +14,7 @@
   </head>
   <body class="m-0 box-border">
   <!-- Header Start -->
-  <?php require 'dist/components/header.php' ?>
+  <?php require 'dist/components/header.html' ?>
   <!-- Header End -->
 
   <!-- Home Section Start -->
