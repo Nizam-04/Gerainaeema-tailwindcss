@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  height: 2000px;
 }
 
 /* Header Start */
@@ -33,11 +32,27 @@ body {
 }
 /* Header End */
 
-/* Slider */
+/* Slider Start */
 .single-dot {
   @apply bg-white h-4 w-4 border-2 border-solid border-black rounded-[50%] my-0 mx-2 cursor-pointer transition duration-[400ms];
 }
 
 .single-dot.active {
   @apply bg-gerainaeema;
+}
+/* Slider End */
+
+/* Testimony Start */
+@keyframes slidetestimony {
+  0% {@apply right-0;}
+  30% {@apply right-0;}
+  33% {@apply right-full;}
+  63% {@apply right-full;}
+  66% {@apply right-[200%];}
+  97% {@apply right-[200%];}
+  100% {@apply right-0;}
+}
+
+.testimony-slide {
+  animation: slidetestimony linear 10s infinite;
 }
