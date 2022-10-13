@@ -41,6 +41,8 @@ hamburger.addEventListener('click', function() {
 
 // Slider Section Start
 // Set Up The Slider
+setInterval(() => {nextBtn.click();}, 4000);
+
 function init() {
   /*
     slideImage[0] = 0
